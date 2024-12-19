@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RSA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RSA Шифрование</h1>
+        <div class="section">
+            <button id="generateKeys">Сгенерировать ключи</button>
+            <p id="keys"></p>
+        </div>
+        <div class="section">
+            <textarea id="inputText" placeholder="Введите текст для шифрования"></textarea>
+            <button id="encrypt">Зашифровать</button>
+            <textarea id="encryptedText" placeholder="Зашифрованный текст"></textarea>
+        </div>
+        <div class="section">
+            <textarea id="decryptText" placeholder="Введите зашифрованный текст"></textarea>
+            <button id="decrypt">Дешифровать</button>
+            <textarea id="decryptedText" placeholder="Расшифрованный текст"></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
